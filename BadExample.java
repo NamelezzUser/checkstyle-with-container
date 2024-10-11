@@ -8,14 +8,14 @@ public class BadExample {
     /**
      * Constructor initializes the names list.
      */
-    public CheckstyleExample()   {
+    public BadExample()   {
         names = new ArrayList<>();
     }
 
     /**
      * Adds a name to the list.
      * 
-     * @param name
+     * @param n
      */
     public void addName(String n) {
         if (n != null && !n.isEmpty()) {
@@ -31,7 +31,7 @@ public class BadExample {
     }
 
     public static void main(String[] args) {
-        CheckstyleExample example = new CheckstyleExample();
+        BadExample example = new BadExample();
         example.addName("Alice");
         example.addName("Bob");
 
